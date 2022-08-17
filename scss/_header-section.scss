@@ -17,9 +17,10 @@
     height: 45px;
 }
 
-.telephone {
- 
+.telephone-marg {
     margin-right: 60px;
+}
+.telephone {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -96,6 +97,7 @@
 }
 
 .buttom-search-input {
+    width: 300px;
     border: none;
     background-color: transparent;
     font-weight: 400;

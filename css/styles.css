@@ -71,8 +71,11 @@ a {
   height: 45px;
 }
 
-.telephone {
+.telephone-marg {
   margin-right: 60px;
+}
+
+.telephone {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -148,6 +151,7 @@ a {
 }
 
 .buttom-search-input {
+  width: 300px;
   border: none;
   background-color: transparent;
   font-weight: 400;
@@ -170,7 +174,7 @@ a {
 }
 
 .main-color {
-  background-color: #E5E5E5;
+  background-color: #F9F9F9;
   padding-top: 75px;
   padding-bottom: 100px;
 }
@@ -275,6 +279,7 @@ a {
 .gramm-tik:checked + label {
   border: 1px solid #3ECF5E;
   border-radius: 5px;
+  background-color: #FFFFFF;
 }
 
 .form-marg {
@@ -305,12 +310,15 @@ a {
   background-color: #F9F9F9;
 }
 
-.gramm-tik:checked + label ~ .buttom-gramm {
+/*
+.gramm-tik:checked + label ~  .buttom-gramm
+  {
   pointer-events: auto;
-  border: 1px solid #3ECF5E;
+  border: 1px solid #BDBDBD;
   border-radius: 5px;
+  background-color: #eb1111;;
 }
-
+*/
 .location-cards {
   display: flex;
   justify-content: space-between;
@@ -329,9 +337,8 @@ a {
   border-radius: 10px;
   padding: 9px 15px;
   position: absolute;
-  bottom: 90%;
-  left: 83%;
-  transform: translate(-50%, -50%);
+  bottom: 92%;
+  left: 68%;
 }
 
 /* pages */
@@ -347,6 +354,10 @@ a {
   font-size: 18px;
   line-height: 21px;
   color: #828282;
+}
+
+.pages-size a:nth-child(2) {
+  color: #219653;
 }
 
 .left {
@@ -373,6 +384,10 @@ a {
   background-color: #333333;
   padding-top: 100px;
   padding-bottom: 130px;
+}
+
+.terms {
+  font-size: 0;
 }
 
 .footer-color a {
